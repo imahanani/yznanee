@@ -1,0 +1,40 @@
+#6.2.13 Pekerjaan rumah: Tugas 1
+
+## menggunakan operator untuk berbagai tipe variabel di dalam Python | https://docs.google.com/document/d/1XAKj04sYcn_FYHTlJ-kjLvfKQTjxMq3H/edit
+
+-- Dengan analogi naik taksi, jarak 15.5KM biaya $10. Hitung ongkos per kilometer 
+distance = 15.5
+paid = 10
+print (distance/paid)
+type(distance/paid) --cek type data
+type(1.55) --cek type data
+
+-- rata-rata kecepatan
+distance1=75
+time1=2
+distance2=30
+time2=1
+(distance1+distance2)/(time1+time2)
+
+a = list(tuple(range(3,10))) -- membuat tuple dari angka 3 hingga 9 (termasuk angka 3 dan 9) dengan fungsi range.
+a
+
+a.append(12) -- menambah angka 12 ke list, gunakan fungsi append.
+a
+
+a.remove(6) --menghapus angka 6 dari list, gunakan fungsi remove.
+a
+
+a
+print (sum(a)) -- mengidentifikasi total, maks dan min.
+print (min(a))
+print (max(a))
+
+dict1={'apples':6, 'banana':4, 'pears':2, 'grapes':8} --menyalin dict1 = {'apples': 6, 'bananas': 4, 'pears': 2, 'grapes': 8} 
+del dict1['pears'] --menghapus dengan fungsi del
+dict1
+
+dict1['banana']=3 --mengubah value , perhatikan penulisan Key dan Value
+dict1
+
+###append() remove()) del[]
