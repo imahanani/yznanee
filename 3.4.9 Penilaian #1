@@ -1,0 +1,43 @@
+1. Membuat daftar tingkat pendidikan karyawan yang mendapat promosi. Daftar ini harus menunjukkan hanya pendidikan tanpa duplikat.
+Code:
+Select distinct (education) as unique_edu
+from employee_promotion
+where education is not null and awards_won is not null
+;
+-----------------------------------------------------query elaboration
+SELECT DISTINCT: This clause selects only unique values in the "education" column from the "employee_promotion" table.
+
+(education) AS unique_edu: This is an alias that renames the "education" column to "unique_edu". The AS keyword is optional, but it helps to make the code more readable.
+
+FROM employee_promotion: This specifies the table to select data from.
+
+WHERE education IS NOT NULL: This is a condition that filters the rows where the "education" column is not null. This means that only rows with a non-null "education" value will be returned.
+
+AND awards_won IS NOT NULL: This is another condition that filters the rows where the "awards_won" column is not null. This means that only rows with a non-null "awards_won" value will be returned.
+
+; : This semicolon at the end of the code signals the end of the SQL statement.
+
+To summarize, this SQL query selects unique values from the "education" column of the "employee_promotion" table where both the "education" and "awards_won" columns are not null. The result set will contain a list of unique education values for employees who have won awards.
+
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+2. Karyawan termuda dan tertua yang mendapat promosi dengan tingkat pendidikan “Below Secondary” (di bawah SMP).
+Code:
+Select min(age), max(age)
+from employee_promotion
+where education is not null and education = 'Below Secondary' and awards_won is not null--Select distinct (education) from employee_promotion;
+;
+
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+3. Menunjukkan 2 tingkat pendidikan yang paling sedikit menyumbang promosi bagi karyawan wanita. Urutkan tingkat pendidikan berdasarkan jumlah karyawan wanita yang dipromosikan, tempatkan yang paling sedikit di baris paling atas.
+Code
+Select distinct(education) as unique_edu, sum(awards_won) as total_awards
+from employee_promotion
+where gender= 'f' and education is not null
+group by unique_edu
+order by total_awards asc
+limit 2
+;
+
