@@ -1,0 +1,13 @@
+Berikut beberapa istilah umum dalam SQL :
+
+- Database: Tempat penyimpanan data terstruktur.
+- Table: Struktur data dalam database yang terdiri dari kolom dan baris.
+- Column: Bagian dari sebuah tabel yang mendefinisikan jenis data.
+- Row: Bagian dari sebuah tabel yang mendefinisikan data yang tersimpan.
+- Query: Permintaan data dari database.
+- Primary Key: Unik dan membedakan setiap baris dalam sebuah tabel.
+- Foreign Key: Kolom yang merujuk pada primary key di tabel lain.
+- Join: Menggabungkan dua tabel atau lebih untuk memungkinkan permintaan data yang lebih kompleks.
+
+Recommended source: 
+- https://learnsql.com/blog/sql-terms-for-beginners/
