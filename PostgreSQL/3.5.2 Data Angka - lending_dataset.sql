@@ -31,7 +31,7 @@ SQL state: 22023
 Character: 97
 ================================
 
-NOTE! Our mentor has informed me that the upcoming module, 3.5.4, will include a section on query overflow.
+OUR MENTOR HAS INFORMED ME THAT THE UPCOMING MODULE, 3.5.4, WILL INCLUDE A SECTION ON QUERY OVERFLOW.
 ```sql
 --membuat table  dan type kolom
 drop table if exists public.lending_dataset; 
@@ -61,5 +61,10 @@ tablespace pg_default;
 alter table if exists public.lending_dataset
 owner to postgres; 
 ``` --succeed
+
+select * from lending_dataset --to verify whether the query has been implemented correctly or not
+--limit 31;
+Total rows: 2875146
+
 
 
