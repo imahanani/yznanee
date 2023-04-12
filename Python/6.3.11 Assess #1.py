@@ -1,39 +1,32 @@
-# Tugasmu adalah menulis program Python untuk melihat apakah suatu angka merupakan bilangan prima atau bukan. Buat program yang bisa memeriksa apakah angka dari 2 hingga 100 merupakan bilangan prima pada python
+Buat program yang bisa memeriksa apakah angka dari 2 hingga 100 merupakan bilangan prima
 
-CARA PERTAMA. Berikut adalah program Python untuk memeriksa apakah angka dari 2 hingga 100 merupakan bilangan prima:
 ```py
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, int(n ** 0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
-
-for i in range(2, 101):
-    if is_prime(i):
-        print(i, "adalah bilangan prima")
-    else:
-        print(i, "bukan bilangan prima")
-```
-# Program di atas menggunakan fungsi is_prime() untuk memeriksa apakah suatu angka bilangan prima atau bukan. Fungsi tersebut akan mengembalikan nilai True jika angka tersebut adalah bilangan prima, dan False jika bukan.
-# Selanjutnya, program menggunakan perulangan for untuk memeriksa angka dari 2 hingga 100. Jika suatu angka merupakan bilangan prima, maka program akan mencetak "adalah bilangan prima", dan jika bukan, program akan mencetak "bukan bilangan prima".
-
-CARA KEDUA. menggunakan if, elif, dan else untuk mengecek apakah suatu bilangan merupakan bilangan prima atau bukan. Berikut adalah contoh kode program Python yang menggunakan if, elif, dan else untuk mengecek bilangan prima dari 2 hingga 100:
-```py
-for num in range(2, 101):
-    if num > 1:
-        for i in range(2, num):
-            if (num % i) == 0:
-                print(num, "bukan bilangan prima")
+#index python n hingga n(-1)
+for x in range(2, 101):
+    if x > 1:
+        for i in range(2, x):
+            if (x % i) == 0:
+                print(x, "bukan bilangan prima")
                 break
         else:
-            print(num, "adalah bilangan prima")
+            print(x, "adalah bilangan prima")
     else:
-        print(num, "bukan bilangan prima")
+        print(x, "bukan bilangan prima")
 ```
-Pada program di atas, kita menggunakan perulangan for untuk mengiterasi angka dari 2 hingga 100. Kemudian, kita menggunakan if untuk mengecek apakah angka tersebut lebih besar dari 1, karena bilangan prima harus lebih besar dari 1. Jika angka tersebut lebih kecil atau sama dengan 1, maka kita langsung mengeluarkan output "bukan bilangan prima".
 
-Selanjutnya, kita menggunakan perulangan for di dalam if untuk mengiterasi angka dari 2 hingga angka sebelumnya (num - 1). Jika kita menemukan bilangan yang bisa membagi habis angka tersebut, maka kita mengeluarkan output "bukan bilangan prima" dan keluar dari perulangan dengan break. Jika perulangan selesai tanpa mengeluarkan output, maka angka tersebut merupakan bilangan prima dan kita mengeluarkan output "adalah bilangan prima".
+STEP BY STEP
 
-Terakhir, jika angka kurang dari atau sama dengan 1, maka kita langsung mengeluarkan output "bukan bilangan prima" tanpa melakukan pengecekan.
+1. Pertama, kita menggunakan perulangan for untuk mengiterasi angka dari 2 hingga 100 dengan sintaks for x in range(2, 101):.
+
+2. Setelah itu, kita menggunakan kondisi if x > 1: untuk mengecek apakah angka x lebih besar dari 1. Jika iya, maka program akan melanjutkan ke langkah 3. Jika tidak, maka program akan langsung keluar dari blok if dan mencetak "bukan bilangan prima" dengan menggunakan sintaks print(x, "bukan bilangan prima").
+
+3. Di dalam blok if, kita menggunakan perulangan for lagi dengan sintaks for i in range(2, x): untuk mengiterasi angka dari 2 hingga angka sebelum x. Ini dilakukan untuk mengecek apakah ada bilangan selain 1 dan dirinya sendiri yang bisa membagi habis x.
+
+4. Selanjutnya, kita menggunakan kondisi if (x % i) == 0: untuk mengecek apakah angka x bisa dibagi habis dengan bilangan i. Jika iya, maka artinya x bukan bilangan prima dan program akan langsung keluar dari blok if dengan menggunakan sintaks break. Jika tidak, maka program akan melanjutkan ke langkah 5.
+
+5. Setelah perulangan for di dalam blok if selesai, kita menggunakan blok else dengan sintaks else: untuk mencetak "adalah bilangan prima" dengan menggunakan sintaks print(x, "adalah bilangan prima"). Blok else ini akan dijalankan jika perulangan for di dalam blok if selesai tanpa menemukan bilangan selain 1 dan dirinya sendiri yang bisa membagi habis x.
+
+6. Jika kondisi if x > 1: pada langkah 2 tidak terpenuhi, maka program akan langsung keluar dari blok if dan mencetak "bukan bilangan prima" dengan menggunakan sintaks print(x, "bukan bilangan prima"). Ini dilakukan untuk menangani kasus ketika x kurang dari atau sama dengan 1.
+
+Dengan langkah-langkah tersebut, program dapat mengecek apakah angka dari 2 hingga 100 adalah bilangan prima atau bukan.
+
