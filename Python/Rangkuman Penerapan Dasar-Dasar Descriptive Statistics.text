@@ -1,0 +1,163 @@
+Rangkuman Penerapan Dasar-Dasar Descriptive Statistics
+
+
+Pengantar Penerapan Dasar-Dasar Statistik
+By definition, statistik merupakan ilmu yang menerapkan berbagai metode saintifik dalam proses pengumpulan, analisis, interpretasi, serta penyajian data. Terdapat beberapa konsep statistik yang umum digunakan untuk mendeskripsikan sebuah data yang dikenal sebagai descriptive statistics. Beberapa konsep tersebut bisa Anda lihat di bawah ini.
+
+Measuring central tendency untuk mengidentifikasi nilai khas atau sentral dalam sebuah data.
+Measuring dispersion untuk menilai variabilitas atau sebaran nilai dalam sebuah data. 
+Measuring asymmetric untuk menilai ketidaksimetrisan dalam sebuah distribusi data.
+Data relationship untuk mengidentifikasi hubungan dua atau lebih feature/column/variable dalam sebuah data.
+
+
+Tipe Data
+Pada proses analisis, tipe data akan menentukan metode analisis dan bentuk visualisasi data yang tepat. Secara garis besar, data dapat dibagi menjadi dua tipe, yaitu kuantitatif (numerik) dan kategoris.
+
+
+Data kuantitatif
+
+Data kontinu
+
+Direpresentasikan dalam berbagai nilai numerik dan bisa dibagi atau diubah ke dalam unit yang lebih kecil
+
+Umur, tinggi badan, berat badan, dll.
+
+Data diskret
+
+Direpresentasikan dalam bilangan bulat dan tidak dapat dibagi ke dalam unit yang lebih kecil
+
+Jumlah kucing peliharaan, jumlah produk yang terjual, dll.
+
+
+Data kategoris
+
+Data ordinal
+
+Tipe data kategoris yang dapat diurutkan berdasarkan rangking
+
+Rating, kategori pelanggan berdasarkan income, dll.
+
+Data nominal
+
+Tipe data kategoris yang tidak memiliki urutan atau rangking
+
+Jenis kelamin, warna bulu kucing, dll.
+
+
+
+Measuring Central Tendency
+Measuring central tendency merupakan sekumpulan parameter statistik untuk menggambarkan nilai khas atau sentral yang mewakili keseluruhan observasi atau data. Nilai khas atau sentral tersebut direpresentasikan menggunakan tiga parameter statistik yaitu mean, median, dan mode. 
+
+
+
+Mean
+Mean atau sering juga disebut sebagai expected value merupakan salah satu parameter yang paling sering digunakan untuk menggambarkan nilai khas atau sentral dari suatu data. Ia diperoleh dari menghitung jumlah keseluruhan data dan dibagi dengan banyaknya data yang dimiliki.
+
+dos:13b6165cf9d1e6499be28ce1cda3a93720230126164414.jpeg
+
+Parameter ini sangat sensitif terhadap noise dan outlier yang terdapat dalam sebuah data.  Inilah salah satu alasan kenapa kita tidak boleh hanya menggunakan mean untuk merepresentasikan nilai khas dari suatu data.
+
+
+
+Median
+Median merupakan parameter yang merepresentasikan nilai tengah atau persentil ke-50 dari keseluruhan observasi atau data. Parameter ini diperoleh dengan mengambil nilai persentil ke-50 dari data yang telah diurutkan.
+
+Untuk data yang berjumlah ganjil, nilai median diperoleh dengan mengambil langsung nilai tengah dari data yang telah diurutkan. Namun, hal ini berbeda jika data yang dimiliki berjumlah genap. Pada kasus seperti ini, kita perlu mengurutkan dan menghitung nilai rata-rata dari dua data yang berada di tengah
+
+Median dikenal sebagai salah satu parameter yang sangat toleran terhadap outlier. Apabila Anda mengubah salah satu nilai dari data tersebut, parameter median yang diperoleh tidak akan berubah secara signifikan.
+
+
+
+Mode
+Parameter ketiga dalam measuring central tendency ialah mode. Parameter ini akan memberikan kita gambaran atau informasi terkait nilai yang paling sering muncul dalam suatu data. 
+
+Untuk menghitung parameter mode, kita perlu mengurutkan nilai dari suatu data terlebih dahulu. Selanjutnya memilih nilai yang paling sering muncul. Sebagai contoh, pada data jumlah kucing peliharaan yang dimiliki pegawai Dicoding, nilai yang paling sering muncul adalah 2. Nilai ini merupakan mode dari data tersebut.
+
+Ketika menggunakan mode, Anda perlu memahami bahwa parameter ini akan mencari nilai yang paling sering muncul. Oleh karena itu, jika suatu data memiliki nilai yang unik, data tersebut tidak memiliki mode. Selain itu, apabila data memiliki lebih dari satu nilai yang paling sering muncul, itu artinya data tersebut memiliki lebih dari satu mode.
+
+
+
+Measuring Dispersion
+Pada materi kali ini, kita akan fokus membahas sebuah konsep statistik untuk menilai sebaran dari suatu data yaitu measuring dispersion atau sering juga disebut measures of spread. Ia akan memberikan informasi terkait seberapa jauh suatu titik data dengan titik data lainnya. Hal ini mampu memberikan kita gambaran variasi nilai dari data tersebut. Untuk menggambarkan measuring dispersion, kita dapat menggunakan empat parameter, yaitu range, interquartile range, variance, dan standard deviation. 
+
+
+
+Range
+Parameter pertama yang akan kita bahas adalah range. Ia merupakan parameter yang digunakan untuk melihat perbedaan antara nilai maksimum dan minimum dari suatu data. 
+
+Untuk menghitung parameter ini, kita perlu mengidentifikasi nilai maksimum dan minimum dari suatu data terlebih dahulu. Selanjutnya, kita mengurangi nilai maksimum dan nilai minimum. Selisih inilah yang menjadi parameter range.
+
+
+
+Interquartile Range
+Interquartile Range atau sering disingkat IQR merupakan parameter statistik yang menggambarkan selisih antara kuartil ketiga (Q3) dan kuartil pertama (Q1). Parameter ini mewakili nilai range atau rentang di mana sebagian besar titik data berada.
+
+Untuk menghitung IQR, kita perlu menentukan nilai Q1 dan Q3 terlebih dahulu. Selanjutnya, kita dapat menghitung selisih keduanya. Selisih inilah yang menjadi nilai dari parameter IQR. 
+
+
+
+Variance
+Selain range dan IQR, sebaran dari suatu data juga dapat direpresentasikan menggunakan parameter variance. Ia merupakan parameter yang digunakan untuk menggambarkan besar simpangan suatu titik data dari nilai mean-nya. 
+
+Sebelum menghitung nilai variance, kita membutuhkan nilai mean terlebih dahulu. Berikutnya kita perlu menghitung total selisih kuadrat dari seluruh titik data dengan nilai mean-nya. Nilai total tersebut selanjutnya akan dibagi dengan banyak titik data yang dimiliki. Berikut merupakan rumus untuk menghitung variance.
+
+dos:1974f76451a9422b152ea70dae7c5ae620230126164414.jpeg
+
+
+
+Standard Deviation
+Jika Anda perhatikan, pada perhitungan variance kita sebenarnya telah menghitung rata-rata selisih kuadrat antar titik data dan nilai mean-nya. Penggunaan selisih kuadrat ini membuat unit dari parameter variance berbeda dengan unit data sehingga cukup sulit untuk diinterpretasikan. Oleh karena itu, kita membutuhkan satu parameter lain yang akan menghitung akar kuadrat dari variance. Parameter tersebut bernama standard deviation.
+
+dos:48691713e61e6ce9b7d434b00259b63120230126164414.jpeg
+
+
+
+Standard deviation merupakan parameter yang paling sering digunakan para praktisi data untuk menilai sebaran atau simpangan dalam sebuah data. Semakin kecil nilai standard deviation, semakin kecil pula jarak antar titik data dengan nilai mean-nya sehingga bisa disimpulkan data tersebut memiliki sebaran yang sempit. Di sisi lain, semakin besar nilai standard deviation, semakin luas pula sebaran datanya. Selain itu, standard deviation juga sering digunakan untuk menilai seberapa baik parameter mean dalam merepresentasikan suatu data.
+
+
+
+Measuring Asymmetric
+Measuring asymmetric merupakan konsep statistik yang digunakan untuk mengidentifikasi ketidaksimetrisan dalam sebuah distribusi data numerik. Parameter statistik yang umum digunakan dalam measuring asymmetric ialah skewness. 
+
+
+
+Distribusi Data
+Distribusi data atau data distribution merupakan sebuah konsep statistik yang digunakan untuk menunjukkan frekuensi suatu nilai muncul dalam sebuah data. Umumnya kita menggunakan grafik histogram untuk melihat distribusi suatu data. Grafik tersebut akan menunjukkan frekuensi kemunculan setiap nilai dalam sebuah data.
+
+Secara umum, berdasarkan bentuk grafik histogram yang terbentuk, kita bisa membagi distribusi data dalam tiga bentuk yaitu symmetric distribution, right-skewed distribution, dan left-skewed distribution.
+
+Symmetric distribution
+Symmetric distribution (normal distribution atau bell curve distribution) merupakan suatu distribusi data yang memungkinkan kita untuk membagi data menjadi dua bagian secara simetris. Distribusi data ini memiliki nilai mean, median, serta mode yang sama dan berada di sentral distribusi data.
+Right-skewed distribution
+Right-skewed distribution merupakan distribusi data yang memiliki sebagian besar populasi data yang terkonsentrasi pada bagian kiri. Distribusi data ini memiliki nilai mean lebih besar dari nilai median dan juga mode.
+Left-skewed distribution
+Left-skewed distribution merupakan distribusi data yang terjadi ketika sebagian besar populasi data berada pada bagian kanan. Umumnya distribusi ini memiliki nilai median dan mode yang lebih besar dari nilai mean.
+
+Skewness
+Skewness merupakan parameter statistik yang digunakan untuk mengukur kesimetrisan sebuah distribusi data. Ia mampu memberikan kita gambaran tentang banyaknya data yang menyimpang dari symmetric distribution. Parameter ini memiliki jangkauan nilai mulai dari negatif hingga positif.
+
+Nilai skewness positif menggambarkan data yang memiliki distribusi yang cenderung right-skewed.
+Nilai skewness nol menggambarkan data yang memiliki distribusi simetris sempurna.
+Nilai skewness negatif merepresentasikan data dengan distribusi yang cenderung left-skewed.
+
+
+Data Relationship
+By definition, data relationship merupakan konsep statistik untuk mengidentifikasi hubungan antar feature bertipe numerik dalam sebuah data. Untuk mengidentifikasi hubungan antar feature bertipe numerik, kita bisa menggunakan dua parameter yaitu correlation dan covariance. 
+
+
+
+Correlation
+Parameter pertama yang akan kita bahas untuk mengidentifikasi data relationship ialah correlation. Parameter ini digunakan untuk mengidentifikasi korelasi atau hubungan dari dua feature numerik dalam sebuah data. Korelasi ini digambarkan menggunakan nilai dengan rentang -1 hingga 1.
+
+Pada parameter correlation, nilai negatif menggambarkan korelasi berlawanan, sedangkan nilai positif merepresentasikan korelasi bersesuaian. Jika correlation dari dua feature bernilai nol, keduanya dinyatakan tidak memiliki korelasi.
+
+
+
+Covariance
+Selain menggunakan correlation, kita juga bisa menggunakan parameter covariance untuk mengidentifikasi hubungan antar dua feature dalam sebuah dataset. Berdasarkan nilainya, covariance terbagi menjadi tiga bagian seperti berikut.
+
+Positive covariance yang menggambarkan dua feature yang berkorelasi positif atau bersesuaian.
+Negative covariance yang merepresentasikan dua feature yang berkorelasi negatif atau berlawanan.
+Zero covariance yang menandakan dua feature yang tidak berkorelasi satu sama lain.
+
+
