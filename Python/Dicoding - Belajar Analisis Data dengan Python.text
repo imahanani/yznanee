@@ -1,0 +1,193 @@
+Teknis:
+Persiapan Belajar
+Dasar-Dasar Analisis Data
+Penerapan Dasar-Dasar Descriptive Statistics
+Pertimbangan dalam Pengolahan Data
+Data Wrangling
+Exploratory Data Analysis
+Data Visualization
+Pengembangan Dashboard
+Penutup
+Proyek Akhir
+
+Softwares:
+Google Colab, Jupyter Notebook, atau Python IDE
+
+Tools:
+Jupyter Notebook
+Google Colaboratory
+Integrated Development Environment (IDE), contohnya PyCharm atau Visual Studio
+Anaconda
+
+Submission (Proyek, Tugas, Proyek Akhir):
+https://www.dicoding.com/termsofuse
+https://help.dicoding.com/academy-dicoding/aturan-terkait-review-submission-academy-dicoding/
+https://www.dicoding.com/academies/555/discussions/235540
+
+MATERI
+Glossarium (A-Z)
+- Echo chamber
+- Left-skewed distribution
+- Matplotlib
+- NumPy
+- Pandas
+etc
+
+
+Referensi:
+1. https://www.domo.com/learn/infographic/data-never-sleeps-9
+2. https://www.coursera.org/learn/foundations-data?specialization=google-data-analytics
+3. https://online.hbs.edu/blog/post/data-driven-decision-making
+4. https://www.udacity.com/course/data-analyst-nanodegree--nd002
+5. https://learning.oreilly.com/library/view/python-data-analysis/9781789955248/
+6. https://www2.cs.uh.edu/~ceick/UDM/CFDS16.pdf
+7. https://www.coursera.org/learn/data-preparation
+8. https://www.ibm.com/id-en/topics/data-security
+9. https://learning.oreilly.com/library/view/python-for-data/9781098104023/
+10. https://learning.oreilly.com/library/view/storytelling-with-data/9781119002253/
+11. https://www.coursera.org/learn/ask-questions-make-decisions
+12. http://faculty.salisbury.edu/~jtanderson/teaching/cosc311/fa21/files/tufte.pdf
+13. https://www.coursera.org/learn/visualize-data?specialization=google-data-analytics
+14. https://www.tableau.com/blog/best-practices-for-building-effective-dashboards
+
+Pengenalan Analisis Data: analisis data yang luar biasa menarik dan atraktif, mulai dari siklus pengolahan data, penerapan dasar-dasar statistik, pertimbangan dalam pengolahan data, berbagai teknik dalam data wrangling, exploration dan visualization, hingga cara membuat dashboard.
+- Analytical Skills
+- Analytical Thinking
+
+Pentingnya Data dalam Dunia Bisnis: Data-Driven Decision Making
+
+Mengenal Siklus Analisis Data:
+1. Mendefinisikan pertanyaan
+2. Data wrangling
+3. Exploratory Data Analysis
+4. Data visualization
+5. Draw conclusion & communicate
+
+
+                CODING
+( Memulai Pemrograman Dengan Python | another class at https://www.dicoding.com/academies/86 )                
+                
+Pengenalan Tool Pengolahan Data:
+1. Library NumPy
+2. Library pandas
+3. Library SciPy
+4. Library Matplotlib
+5. Library Seaborn
+
+Further codes: https://github.com/imahanani/yznanee/new/main/Python/Dicoding - Python Libraries.py
+
+Summary: https://github.com/imahanani/yznanee/new/main/Python/Rangkuman Dasar-Dasar Analisis Data.text
+
+Pengantar Penerapan Dasar-Dasar Descriptive Statistics:
+- Descriptive statistics [Measuring central tendency , Measuring dispersion, Measuring asymmetric dan Data relationship ]
+- Tipe Data [Data kuantitatif dan Data kategoris]
+
+Measuring Central Tendency: 
+- Mean
+- Median
+- Mode
+
+Measuring Dispersion:
+- Range
+- Interquartile Range
+- Variance
+- Standard Deviation
+
+Measuring Asymmetric:
+- Distribusi Data [Symmetric, Right-skewed, Left-skewed]
+- Skewness [ Positif, Nol, Negatif]
+
+Data Relationship:
+- Correlation
+- Covariance [Positif, Zero, Negatif]
+
+Summary: https://github.com/imahanani/yznanee/new/main/Python/Rangkuman Penerapan Dasar-Dasar Descriptive Statistics.text
+
+Pengantar Pertimbangan dalam Pengolahan Data:
+- Data akademik vs data industri
+- Privasi dan Eetika sebagai praktisi data
+
+Bias dalam Data:
+- Sampling bias | gunakan random samping instead.
+- Observer / experimenter bias | pengukuran berulang, tentukan nilai rerata
+- Interpretation bias. | Melibatkan orang lain untuk validasi hasil interpretasimu
+- Confirmation bias. Echo Chamber Efect. | senetral mungkin
+
+Confirmation bias:
+- Reliabilitas 
+- Orisinalitas 
+- Komprehensif
+- Aktualitas 
+
+Privasi dan Etika dalam Pengolahan Data:
+- Ownership
+- Transparency
+- Consent
+- Currency
+- Privacy & Openness
+
+Regulasi dalam Pengolahan Data:
+- General Data Protection Regulation (GDPR). https://gdpr.eu/tag/gdpr/
+- Peraturan Menteri (Permen) No 20 Tahun 2016 tentang Perlindungan Data Pribadi (PDP). https://jdih.kominfo.go.id/produk_hukum/view/id/553/t/peraturan+menteri+komunikasi+dan+informatika+nomor+20+tahun+2016+tanggal+1+desember+2016
+
+Keamanan Data:
+- Encryption
+- Tokenization
+
+Summary: https://github.com/imahanani/yznanee/blob/main/Python/Rangkuman%20Petimbangan%20dalam%20Pengolahan%20Data.text
+
+Pengenalan Data Wrangling:
+- Gathering 
+- Assessing 
+- Cleaning 
+
+Gathering Data:
+- Berbagai Sumber Data [ Kaggle, UCI Machine Learning Repository, Google Dataset Search,Satu Data Indonesia]
+- Membaca Berbagai Tipe Data Menggunakan Pandas
+  https://docs.sqlalchemy.org/en/20/dialects/index.html
+format data lain:     https://pandas.pydata.org/docs/user_guide/io.html#
+- Menggabungkan Beberapa Data Menjadi Satu DataFrame.  menggunakan primary key (PK) dan foreign key (FK). [ Inner, Left, Right, Outer]
+
+Assessing Data:
+- Missing value. 
+- Invalid value
+- Duplicate data
+- Inaccurate value
+- Inconsistent value
+- Inconsistent value
+
+Cleaning Data:
+- Define
+- Code
+- Test
+
+Teknik untuk Mengatasi Missing Value:
+- Dropping. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html
+- Imputation. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.fillna.html
+- Interpolation. menangani missing value pada data time series.  https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.interpolate.html?highlight=interpolate#pandas.DataFrame.interpolate
+
+Teknik untuk Mengatasi Outlier:
+- Drop
+- Imputation
+
+Teknik untuk Mengatasi Duplicate Data: menghilangkan atau menghapus duplikasi 
+
+
+PRAKTIK! PRACTICE!
+Latihan Data Wrangling
+dataset : https://github.com/dicodingacademy/dicoding_dataset/tree/main/DicodingCollection
+modified from: https://www.kaggle.com/datasets/ruchi798/shopping-cart-database
+- Tabel customers
+- Tabel orders
+- Tabel products
+- Tabel sales
+Tujuan: menjalankan proses data wrangling. 
+
+Persiapan:
+- siapkan environment. selalu membuat virtualenv baru pada setiap proyek. 
+
+URL: https://github.com/imahanani/yznanee/blob/main/Python/Latihan%20Data%20Wrangling.py
+
+
+
+
