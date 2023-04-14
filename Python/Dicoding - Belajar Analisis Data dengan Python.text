@@ -189,5 +189,53 @@ Persiapan:
 URL: https://github.com/imahanani/yznanee/blob/main/Python/Latihan%20Data%20Wrangling.py
 
 
+Exploratory Analysis vs Explanatory Analysis
+
+Exploratory:
+- Mendefinisikan Pertanyaan Untuk Explorasi Data
+- Problem Solving [Membuat prediksi, Mengategorikan berbagai hal, Menemukan sesuatu yang tidak biasa, Mengidentifikasi tema, Menemukan hubungan, Menemukan pola] 
+- Membuat Pertanyaan yang Efektif [Specific, Measurable, Action-oriented, Relevant,Time-bound]
+
+Mengelompokkan Data : Key dan Value
+Untuk memahami proses pembuatan pivot table, Anda perlu mengenal dua istilah di bawah ini telebih dahulu.
+Key: kolom yang berisi data kategorik dan digunakan untuk mengelompokkan data.
+Value: kolom yang berisi data kuantitatif dan akan dihitung nilai parameter statistiknya.
+#method agg()
+URL https://pandas.pydata.org/pandas-docs/stable/reference/groupby.html#
+
+Latihan Exploratory Data Analysis | Praktek Coding
+
+Pengenalan Data Visualization ^^^
+
+Prinsip-Prinsip dalam Visualisasi Data:
+- Misleading
+- Hides
+- Distracts
+
+Prinsip Desain dalam Visualisasi Data:
+- Position
+- Size
+- Shape
+- Color
+- Texture
+- Angle
+
+          Untuk memastikan penggunaan elemen visual secara efektif, Edward Tufte telah mengenalkan sebuah konsep bernama Data Ink Ratio pada bukunya yang berjudul “The Visual Display of Quantitative Data”.
+ 
+Prinsip Integritas dalam Visualisasi Data:
+- Representasi angka  sebuah grafik harus sebanding dengan kuantitas sebenarnya
+- Pelabelan yang jelas, terperinci, dan menyeluruh 
+- menunjukkan variasi pada data bukan variasi desain
+- harus menggunakan unit yang umum digunakan
+- Jumlah variabel (feature/kolom) yang digambarkan tidak boleh melebihi jumlah dimensi dalam data.
+- tidak boleh menampilkan data yang di luar konteks
+
+          Lie Factor untuk mengukur kesalahan representasi dalam sebuah visualisasi data.
+
+
+
+
+
+
 
 
