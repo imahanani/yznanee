@@ -63,8 +63,19 @@ Format Berkas Submission:
 Folder berisi beberapa berkas seperti berikut.
 a. Dataset yang digunakan dalam proses analisis data.
 b. Berkas Jupyter Notebook atau Colab Notebook (.ipynb).
+Preferesi in venv naming:
+- Python version: Python 3.9.13
+- venv: bike-sharing
+- Jupyter folder: Dico-Bike-Sharing-Project
+- Jupyter file: Bike-Sharing #nanti extensinya .ipynb
+
+
 c. Berkas Python (.py).
 d. Berkas requirements.txt.
+All libraries:
+
+
+
 e. Berkas Markdown (.md).
-  
+All main steps:
   
