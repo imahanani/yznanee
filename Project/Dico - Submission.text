@@ -50,3 +50,21 @@ a. Useful cheatsheet
 - Steamlit https://docs.streamlit.io/library/cheatsheet
 b. Panduan sing-up Streamlit https://docs.streamlit.io/streamlit-community-cloud/get-started#:~:text=on%20your%20team-,Sign%20up%20for%20Streamlit%20Community%20Cloud,-Streamlit%27s%20Community%20Cloud
 c. Panduan deploy Streamlit https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app#:~:text=Deploy%20an%20app-,Deploy%20an%20app,-Streamlit%20Community%20Cloud
+
+Ketentuan Pengiriman Submission
+a. Folder proyek analisis data dalam format ZIP. Berisi:
+  1. Dataset yang digunakan
+  2. Berkas J-Notebook .ipynb
+  3. Berkas .py
+  4. Berkas requirements.txt  https://github.com/dicodingacademy/a555-dashboard/blob/main/requirements.txt
+  5. Berkas Markdown(.md)  https://github.com/rfajri27/a555-dashboard/blob/main/README.md
+  
+Format Berkas Submission:
+Folder berisi beberapa berkas seperti berikut.
+a. Dataset yang digunakan dalam proses analisis data.
+b. Berkas Jupyter Notebook atau Colab Notebook (.ipynb).
+c. Berkas Python (.py).
+d. Berkas requirements.txt.
+e. Berkas Markdown (.md).
+  
+  
