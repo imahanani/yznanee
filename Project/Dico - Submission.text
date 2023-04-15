@@ -1,0 +1,52 @@
+https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+https://matplotlib.org/cheatsheets/_images/cheatsheets-1.png
+https://www.kaggle.com/code/themlphdstudent/cheat-sheet-seaborn-charts
+https://docs.streamlit.io/library/cheatsheet
+https://docs.streamlit.io/streamlit-community-cloud/get-started
+https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app
+https://github.com/dicodingacademy/a555-dashboard/blob/main/requirements.txt
+https://github.com/rfajri27/a555-dashboard/blob/main/README.md
+https://www.dicoding.com/academies/555/discussions
+https://www.dicoding.com/academies/555/tutorials/31230/submission-guidance
+
+1. Pengantar
+Penerapan seluruh materi:
+Dasar-Dasar Analisis Data
+Penerapan Dasar-Dasar Descriptive Statistics
+Petimbangan dalam Pengolahan Data
+Data Wrangling
+Exploratory Data Analysis
+Data Visualization
+Pengembangan Dashboard
+
+
+2. Kriteria
+a. Harus melakukan proses analisis menggunakan salah satu dari beberapa dataset berikut.
+- Bike Sharing Dataset
+- E-Commerce Public Dataset
+- Air Quality Dataset
+b. Melakukan Seluruh Proses Analisis Data
+- Minimal terdapat 2 pertanyaan analisis), url acuan https://www.dicoding.com/academies/555/tutorials/31100
+- Minimal terdapat 2 visualisasi data 
+c. Notebook yang Rapi
+Contoh: - https://github.com/dicodingacademy/assets/blob/main/analisis-data/notebook.ipynb
+- https://colab.research.google.com/drive/1UmO3zH1wimHqQKx7wbt_tP_-Tazhl58x?usp=sharing
+d. Dashboard Sederhana Menggunakan Streamlit
+(pastikan dashboard dapat berjalan dengan lancar di local)
+
+
+3. Penilaian
+Untuk mendapatkan nilai tinggi, Anda bisa menerapkan beberapa saran berikut:
+a. Memberikan dokumentasi menggunakan text cell pada notebook (.ipynb) untuk menjelaskan setiap tahapan analisis data. 
+b. Membuat visualisasi data yang baik dan efektif dengan menerapkan prinsip desain dan integritas.
+c. Deploy dashboard ke dalam streamlit cloud.
+d. Menerapkan teknik analisis lanjutan seperti RFM analysis, geoanalysis, clustering, dll. (Tanpa menggunakan algoritma machine learning) 
+
+4. Tips!
+a. Useful cheatsheet
+- Pandas https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+- Matplotlib https://matplotlib.org/cheatsheets/_images/cheatsheets-1.png
+- Seaborn https://www.kaggle.com/code/themlphdstudent/cheat-sheet-seaborn-charts
+- Steamlit https://docs.streamlit.io/library/cheatsheet
+b. Panduan sing-up Streamlit https://docs.streamlit.io/streamlit-community-cloud/get-started#:~:text=on%20your%20team-,Sign%20up%20for%20Streamlit%20Community%20Cloud,-Streamlit%27s%20Community%20Cloud
+c. Panduan deploy Streamlit https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app#:~:text=Deploy%20an%20app-,Deploy%20an%20app,-Streamlit%20Community%20Cloud
